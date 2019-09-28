@@ -23,3 +23,5 @@ def kClosest(points):
         d, point = heapq.heappop(queue)
         ans.append(point)
     return ans
+
+#Try Quick Select O(n) version
